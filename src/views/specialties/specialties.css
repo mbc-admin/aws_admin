@@ -1,0 +1,41 @@
+
+.searchBarStyle {
+    margin-top: 3vw;
+}
+
+.tableStyle {
+    margin-top: 3vw;
+}
+
+.tableHead {
+    background-color: #0F1841;
+}
+
+.tableHead .MuiTableCell-root {
+    color: white;
+}
+
+.scrollableTable {
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+.specialtyAddButton {
+    margin-left: 50px;
+}
+
+.viewSpecialtyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 100vh;
+   }
+
+   .specialtyTableStyle {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 1vh;
+       width: 90%;
+  }

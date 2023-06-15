@@ -1,0 +1,67 @@
+/* styles.css */
+.modal {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  border: 1px solid #888;
+  width: 40%;
+  border-radius: 20px; /* Ca Añadir bordes redondeados */
+}
+
+.modal-header {
+  background-color: #0F1841;
+  padding: 10px;
+  display: flex; /* Añadir flexbox */
+  justify-content: space-between; /* Alinear elementos horizontalmente */
+  align-items: center; /* Alinear elementos verticalmente */
+}
+
+.modal-title {
+  color: white;
+  margin: 0;
+}
+
+.modal-body {
+  background-color: white;
+  padding: 20px;
+}
+
+.modal-description {
+  color: black; /* Cambiar el color de la descripción a negro */
+}
+
+.close {
+  color: #aaaaaa;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-modal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+
+.button-container{
+  width: 50%;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

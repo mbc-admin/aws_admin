@@ -1,0 +1,44 @@
+
+
+.searchBarStyle {
+  margin-top: 3vw;
+  margin-left: 50px;
+}
+
+.tableStyle {
+    margin-top: 3vw;
+}
+
+.tableHead {
+    background-color: #0F1841;
+  }
+
+
+  .tableHead .MuiTableCell-root {
+    color: white;
+  }
+
+  .scrollableTable {
+    max-height: 100%; /* Ajusta la altura máxima según lo necesites */
+    overflow-y: auto;
+  }
+  .companyAddButton {
+    margin-left: 50px;
+}
+
+
+.viewCompanyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  overflow-y: auto;
+  max-height: 100vh;
+ }
+
+ .companyTableStyle {
+     width: 90%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 1vh;
+}

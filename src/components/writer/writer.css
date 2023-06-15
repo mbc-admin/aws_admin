@@ -1,0 +1,29 @@
+.containerWriter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.inputWriter {
+    flex: 1;
+    height: 3.5vw;
+    padding-left: 0.75vw;
+    border: none;
+    outline: none;
+    border-radius: 0.2vw;
+    background-color: #F7F7FC;
+}
+
+.senderWriter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 3.05vw;
+    height: 3.5vw;
+    margin-left: 0.44vw;
+    border-radius: 4px;
+    background-color: #F7F7FC;
+    cursor: pointer;
+}

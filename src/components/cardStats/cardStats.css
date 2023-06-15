@@ -1,0 +1,57 @@
+.containerCardStats {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 23%;
+    height: 4.9vw;
+    border-radius: 20px;
+    margin: 20px 20px 0 0;
+    -webkit-box-shadow: 0px 3px 17px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 17px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 17px -4px rgba(0,0,0,0.75);
+}
+
+.containerTopCardStats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.titleCardStats {
+    font-weight: 600;
+    font-size: 1vw;
+    color: #0F1841;
+}
+
+.containerIconGeneralStats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1.75vw;
+    height: 1.75vw;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.containerTextGeneralStats {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.textGeneralStats {
+    font-weight: 600;
+    font-size: 0.65vw;
+    color: #0F1841;
+}
+
+.iconCardStats {
+    width: 20px;
+    height: 20px;
+}

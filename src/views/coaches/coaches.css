@@ -1,0 +1,46 @@
+
+.searchBarStyle {
+    margin-top: 3vw;
+    margin-left: 50px;
+}
+
+.tableStyle {
+    margin-top: 3vw;
+}
+
+.tableHead {
+    background-color: #0F1841;
+}
+
+.tableHead .MuiTableCell-root {
+    color: white;
+}
+
+.scrollableTable {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.coachAddButton {
+    margin-left: 50px;
+}
+
+.marginBot{
+    height: 180px;
+}
+
+.viewCoachContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 100vh;
+}
+
+.coachTableStyle {
+    width: 90%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 1vh;
+}

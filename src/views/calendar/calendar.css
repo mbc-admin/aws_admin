@@ -1,0 +1,77 @@
+.containerDiary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.containerHeaderDiary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 2vw 0 1.80vw 0;
+}
+
+.selectDiary {
+    width: 9.1vw;
+    height: 2.6vw;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 0.89vw;
+    letter-spacing: 0.75px;
+    color: #000000;
+    outline: none;
+}
+
+.optionDiary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.workDiary {
+    width: 0.75vw;
+    height: 0.75vw;
+    margin-right: 0.45vw;
+    border-radius: 100px;
+    background-color: #0F1841;
+}
+
+.notWorkDiary {
+    width: 0.75vw;
+    height: 0.75vw;
+    margin-right: 0.45vw;
+    border-radius: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: #FFFFFF;
+}
+
+.partyDiary {
+    width: 0.75vw;
+    height: 0.75vw;
+    margin-right: 0.45vw;
+    border-radius: 100px;
+    background-color: #B29696;
+}
+
+.textOptionDiary {
+    font-weight: 400;
+    font-size: 0.75vw;
+    letter-spacing: 0.75px;
+    color: #526581;
+}
+
+.calendar {
+    width: 100%;
+    height: 80vh;
+}
+
+.invalid {
+    background-color: #CC0711;
+}

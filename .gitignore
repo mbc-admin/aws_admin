@@ -1,0 +1,35 @@
+# .gitignore
+
+# Ignorar el directorio de node_modules
+node_modules/
+
+# Ignorar archivos de configuración y logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignorar archivos de compilación
+build/
+dist/
+
+# Ignorar archivos de cache
+.cache/
+.tmp/
+
+# Archivos específicos de IDE o editor
+.vscode/
+.idea/
+*.sw*
+*.swo*
+*.swn*
+*.bak
+*.orig
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db

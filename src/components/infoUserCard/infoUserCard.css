@@ -1,0 +1,60 @@
+.containerUserCard {
+    position: absolute;
+    top: 5.55vw;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    height: 88vh;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    background-color: #FFFFFF;
+}
+
+.iconCloseUserCard {
+    width: 1.25vw;
+    height: 1.25vw;
+    margin-top: 1.25vw;
+    margin-right: 1.85vw;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.imageUserCard {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 100px;
+}
+
+.nameUserCard {
+    margin: 0.8vw 0;
+    font-weight: 700;
+    font-size: 1.25vw;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #526581;
+}
+
+.companyUserCard {
+    font-weight: 600;
+    font-size: 1vw;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: #526581;
+}
+
+.titleUserCard {
+    margin: 0.8vw 0 0.1vw 0;
+    font-weight: 600;
+    font-size: 1vw;
+    letter-spacing: 0.75px;
+    color: #CC0711;
+}
+
+.textDetailsUserCard {
+    font-weight: 400;
+    font-size: 1vw;
+    letter-spacing: 0.75px;
+    color: #526581;
+}

@@ -1,0 +1,26 @@
+
+.viewSchedulesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    overflow-y: auto;
+    max-height: 100vh;
+   }
+
+   .schedulesTableStyle {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10vh;
+       width: 90%;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list-item-status {
+    display: flex;
+    align-items: start;
+  }

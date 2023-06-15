@@ -1,0 +1,161 @@
+.containerCompleteArticleComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 99%;
+}
+
+.containerArticleComponent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1.5vw;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.dateArticleComponent {
+    margin-top: 0.45vw;
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 0.75vw;
+    letter-spacing: 0.75px;
+    color: #969696;
+}
+
+.containerDetailsArticleComponent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.95vw 1.825vw 0.95vw 1.35vw;
+}
+
+.detailsArticleComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.detailsDateArticleComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4vw;
+    margin-left: auto;
+}
+
+.titleArticleComponent {
+    font-weight: 700;
+    font-size: 1.25vw;
+    letter-spacing: 1px;
+    color: #000000;
+    margin: 0;
+}
+
+.descriptionArticleComponent {
+    font-weight: 400;
+    font-size: 1vw;
+    letter-spacing: 0.75px;
+    color: #000000;
+    margin: 0.5vw 0 0 0;
+}
+
+.iconArticleComponent {
+    width: 1.1vw;
+    height: 0.8vw;
+}
+
+.containerSubarticlesArticlesComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 98%;
+    margin-top: 0.65vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.subarticleArticleComponent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.lastSubarticleArticleComponent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.subarticleTextArticleComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1.1vw;
+    width: 90%;
+}
+
+.titleSubarticleArticleComponent {
+    margin: 0.287vw 0 0.578vw 0;
+    font-weight: 600;
+    font-size: 1vw;
+    letter-spacing: 0.75px;
+    color: #000000;
+}
+
+.subtitleSubarticleArticleComponent {
+    margin: 0 0 0.6vw 0;
+    font-weight: 400;
+    font-size: 0.75vw;
+    letter-spacing: 0.75px;
+    color: #000000;
+}
+
+.iconSubarticleArticleComponent {
+    margin-right: 1.40vw;
+}
+
+.addButtonArticleComponent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 15px 0;
+}
+
+.iconMenuItemArtcileComponent {
+    width: 1.4vw;
+    margin-left: 18px;
+}
+
+
+.textItemArticleComponent {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: 20px;
+    font-weight: 600;
+    /* font-size: 12px; */
+    font-size: 1vw;
+    letter-spacing: 0.75px;
+}
+
+.buttonDeleteArticle {
+    margin-right: 20px;
+    padding: 7px 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: #CC0711;
+    color: #FFFFFF;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.containerSearcher {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 72vw;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    background: #F3F3F4;
+}
+
+.inputSearcher {
+    flex: 1;
+    height: 3.59vw;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 0.89vw;
+    letter-spacing: 0.75px;
+    color: #595959;
+    background-color: transparent;
+}
+
+.inputSearcher::placeholder {
+    font-weight: 600;
+    font-size: 0.89vw;
+    letter-spacing: 0.75px;
+    color: #595959;
+}
+
+.iconSearchSearcher {
+    width: 1.63vw;
+    height: 1.63vw;
+    margin-right: 0.89vw;
+    margin-left: 1.65vw;
+}
+
+.iconDownSearcher {
+    width: 1vw;
+    height: 0.6vw;
+    margin-right: 1vw;
+}

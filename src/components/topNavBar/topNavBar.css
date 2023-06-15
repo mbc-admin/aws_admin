@@ -1,0 +1,41 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    z-index: 100;
+    left: 15px;
+  }
+
+  .backButton {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.iconBackChat {
+  width: 30px;
+  height: 30px;
+  margin-left: 35px;
+  cursor: pointer;
+}
+
+
+
+.textItem {
+  text-align: left;
+  margin-right: auto;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.75px;
+}
+
+
+  

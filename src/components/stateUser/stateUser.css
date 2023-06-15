@@ -1,0 +1,56 @@
+.containerStateUser {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.textStateUser {
+    font-weight: 600;
+    font-size: 1vw;
+    letter-spacing: 0.75px;
+}
+
+.stateCircleConnect {
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    background-color: #16C83D;
+}
+
+.containerSelectStateUser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.dotGreen {
+    width: 0.75vw;
+    height: 0.75vw;
+    margin: 0 0.75vw;
+    border-radius: 100px;
+    background-color: #16C83D;
+}
+
+.dotRed {
+    width: 0.75vw;
+    height: 0.75vw;
+    margin: 0 0.75vw;
+    border-radius: 100px;
+    background-color: #CC0711;
+}
+
+.selectStateUser {
+    width: 9vw;
+    height: 2.5vw;
+    border: none;
+    border-radius: 10px;
+    background: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+}

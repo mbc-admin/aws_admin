@@ -1,0 +1,21 @@
+.containerAvatar {
+    position: relative;
+}
+
+.dotAvatarConnected {
+    position: absolute;
+    bottom: 0.35vw;
+    left: 3.50vw;
+    width: 1.2vw;
+    height: 1.2vw;
+    border-radius: 100px;
+    background-color: #16C83D;
+}
+
+
+.avatarStyle {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 100px;
+}

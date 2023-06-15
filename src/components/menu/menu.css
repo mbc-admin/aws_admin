@@ -1,0 +1,150 @@
+.containerMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    height: 100%;
+    margin-top: 30px;
+}
+
+
+.containeOptions{
+    overflow: scroll;
+    width: 100%;
+    max-height: 700px;
+    margin-top: 3vw;
+}
+
+.MenuItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #0F1841;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.MenuItemStats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #0F1841;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.MenuItemNoFocus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #F2F4F6;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.MenuItemNoFocusStats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    border-bottom: 1px solid #F2F4F6;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.iconMenuItem {
+    width: 1.4vw;
+    margin-left: 18px;
+}
+
+.textMenuItemFocus {
+    text-align: left;
+    margin-right: auto;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 0.95vw;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
+}
+
+.textMenuItemNoFocus {
+    text-align: left;
+    margin-right: auto;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 0.95vw;
+    letter-spacing: 0.75px;
+    color: #526581;
+}
+
+
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+  }
+
+  .side-menu nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .side-menu nav ul li {
+    padding: 10px;
+  }
+
+  .side-menu nav ul li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .side-menu nav ul li button:hover,
+  .side-menu nav ul li button:focus {
+    outline: none;
+    font-weight: bold;
+  }
+
+
+  .menuOptions {
+      width: 80%;
+    margin-left: 20px;
+  }
+
+  .optionsSeparator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #F2F4F6;
+    background-color: #FFFFFF;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+    justify-content: start;
+  }
+
+  .textSeparator {
+    text-align: left;
+    margin-right: auto;
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 1.2vw;
+    letter-spacing: 0.75px;
+    color: #526581;
+}

@@ -1,0 +1,20 @@
+.dotGreen {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: #16C83D;
+}
+
+.dotRed {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: #CC0711;
+}
+
+.stateCircleOcuppied {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    background-color: #16C83D;
+}

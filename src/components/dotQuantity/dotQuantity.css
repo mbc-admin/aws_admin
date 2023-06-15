@@ -1,0 +1,41 @@
+.containerDotQuantityLittleFocus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    color: #CC0711;
+    font-weight: 400;
+    font-size: 0.8vw;
+}
+
+.containerDotQuantityLittleNoFocus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 100px;
+    background-color: #CC0711;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 0.8vw;
+}
+
+.containerDotQuantityBig {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1.75vw;
+    height: 1.75vw;
+    border-radius: 100px;
+    background-color: #0F1841;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 0.8vw;
+}

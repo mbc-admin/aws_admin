@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1vw;
+}
+
+.textRadioButton {
+    margin: 0 0 0 0.5vw;
+    font-weight: 400;
+    font-size: 1vw;
+    letter-spacing: 0.75px;
+    color: #000000;
+}

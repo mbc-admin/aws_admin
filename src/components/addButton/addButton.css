@@ -1,0 +1,24 @@
+.addButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.iconMenuItem {
+    width: 1.4vw;
+    margin-left: 18px;
+}
+
+
+.textItem {
+    text-align: center;
+    margin-right: auto;
+    margin-left: 20px;
+    font-weight: 600;
+    /* font-size: 12px; */
+    font-size: 0.55vw;
+    letter-spacing: 0.75px;
+}

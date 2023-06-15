@@ -1,0 +1,21 @@
+.containerCloseSesion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* height: 50px; */
+    margin-top: auto;
+    background-color: #0F1841;
+    font-weight: 600;
+    font-size: 1vw;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.iconCloseSesion {
+    width: 1.05vw;
+    height: 1.09vw;
+}
